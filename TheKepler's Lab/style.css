@@ -613,7 +613,7 @@ html,
 
 @media (max-width:360px) {
     .header-menu__menu {
-        height: 10vh;
+        height: 100vh;
     }
 
     .section-fifth__frame {
