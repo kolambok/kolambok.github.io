@@ -586,10 +586,6 @@ html,
         width: 70px;
     }
 
-    .footer-mobile__left-block {
-
-    }
-
     .footer-mobile__link-mail,
     .footer-mobile__copyright,
     .footer-mobile__text-creator {
@@ -618,12 +614,13 @@ html,
 
 @media (max-width:360px) {
     .header-menu__menu {
-        height: 90%;
+        height: 95.5%;
+        left: 60%;
     }
 
     .section-fifth__frame {
-        height: 100vh;
-        width: 80%;
+        height: 95.5%;
+        width: 95%;
     }
 }
 
