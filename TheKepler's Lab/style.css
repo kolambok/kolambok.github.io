@@ -495,13 +495,18 @@ html,
 @media (max-width:740px) {
 
     .container {
-        height: 100%;
+        height: 100%;        
     }
     
     .header {
         background: #2E3E5C;
         flex-basis: 52px;
+        width: 100%;
         z-index: 4;
+    }
+        
+    .header-menu {
+        justify-content: space-around;
     }
 
     .header-menu__logo,
@@ -519,7 +524,7 @@ html,
         font-size: 1.2em;
         line-height: 21px;
         margin-top: 12px;
-        width: 510px;
+        width: 210px;
     }
 
     .header-menu__button {
@@ -532,9 +537,9 @@ html,
 
     .header-menu__menu {
         display: none;
-        position: absolute;
+        position: fixed;
         width: 100%;
-        align-self: stretch;
+        height: 86%;
         background: #2E3E5C;
         top: 52px;
         left: 70%;
@@ -557,7 +562,6 @@ html,
 
     .section-fifth {
         display: flex;
-        align-self: stretch;
         margin-bottom: 0;
     }
 
@@ -569,8 +573,7 @@ html,
     .section-fifth__frame {
         margin-top: 30px;
         width: 510px;
-        display: flex;
-        align-self: stretch;
+        height: 65vh;
     }
 
     .footer-mobile {
@@ -616,12 +619,16 @@ html,
 @media (max-width:360px) {
     .header-menu__menu {
         height: 95.5%;
-        left: 60%;
+        left: 55%;
     }
 
     .section-fifth__frame {
-        height: 95.5%;
         width: 95%;
+        height: 75vh;
+    }
+
+    .section-fifth__text {
+        font-size: .77em;
     }
 }
 
