@@ -500,7 +500,7 @@ html,
     
     .header {
         background: #2E3E5C;
-        flex-basis: 52px;
+        height: 52px;
         width: 100%;
         z-index: 4;
     }
