@@ -234,7 +234,8 @@ html,
     color: #58595B;
 }
 
-.section-fifth__link-article:focus {
+.section-fifth__link-article:focus,
+.section-fifth__link-article:active {
     color: #2E3E5C;
 }
 
@@ -608,6 +609,10 @@ html,
     .footer-mobile__text-creator {
         font-size: .6em;
         line-height: 1.5em;
+    }
+
+    .footer-mobile__link-creator {
+        text-decoration: none;
     }
 }
 

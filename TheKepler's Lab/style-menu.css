@@ -90,7 +90,8 @@
         letter-spacing: .06em;
     }
 
-    .section-fifth__link-article:focus {
+    .section-fifth__link-article:focus,
+    .section-fifth__link-article:active{
         font-weight: bold;
         color: #F2F2F0;
     }
