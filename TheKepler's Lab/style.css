@@ -545,12 +545,12 @@ html,
         top: 52px;
         left: 70%;
         z-index: 2;
+        justify-content: space-between;
     }
 
     #menu:checked + .header-menu__menu {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
     }
 
     .header-menu__menu-frame {
