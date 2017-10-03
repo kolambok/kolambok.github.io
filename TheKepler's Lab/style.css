@@ -550,7 +550,7 @@ html,
     #menu:checked + .header-menu__menu {
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
+        justify-content: space-between;
     }
 
     .header-menu__menu-frame {
