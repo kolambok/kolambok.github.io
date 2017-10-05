@@ -496,7 +496,7 @@ html,
 @media (max-width:740px) {
 
     .container {
-        height: 100%;        
+        height: 100%;
     }
     
     .header {
@@ -529,9 +529,9 @@ html,
     }
 
     .header-menu__button {
-        background: url(img/Burger.png) no-repeat;
-        width: 19px;
-        height: 12px;
+        background: url(img/Burger.png) 50% 50% no-repeat;
+        width: 24px;
+        height: 20px;
         cursor: pointer;
         margin: 14px 0;
     }
@@ -545,7 +545,7 @@ html,
         top: 52px;
         left: 70%;
         z-index: 2;
-        justify-content: space-between;
+        justify-content: flex-start;
     }
 
     #menu:checked + .header-menu__menu {
@@ -569,7 +569,6 @@ html,
 
     .section-fifth__article {
         display: flex;
-        align-self: stretch;
     }
 
     .section-fifth__frame {
@@ -577,21 +576,19 @@ html,
         width: 510px;
         max-width: 100%;
         height: 75vh;
-        min-height: 100%;
     }
 
     .footer-mobile {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        align-items: flex-start; 
-        width: 229px;
+        align-items: center; 
+        width: 150px;
         background: #2E3E5C;
-        margin: 0 0 8% 10px;
     }
 
     .footer-mobile__right-block {
-        width: 70px;
+        width: 24px;
     }
 
     .footer-mobile__link-mail,
@@ -602,10 +599,11 @@ html,
         color: #F2F2F0;
         font-family: Calibri, sans-serif;
         font-weight: 100;
+        text-align: center;
     }
 
     .footer-mobile__link-mail {
-        line-height: 3em;
+        line-height: 2.6em;
     }
 
     .footer-mobile__copyright,
