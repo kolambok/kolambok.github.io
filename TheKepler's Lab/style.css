@@ -530,10 +530,10 @@ html,
 
     .header-menu__button {
         background: url(img/Burger.png) 50% 50% no-repeat;
-        width: 24px;
-        height: 20px;
+        width: 32px;
+        height: 26px;
         cursor: pointer;
-        margin: 14px 0;
+        margin: 10px 0;
     }
 
     .header-menu__menu {
